@@ -1,5 +1,5 @@
 import { Mail, Github, Linkedin, GraduationCap } from 'lucide-react';
-import profileImage from "figma:asset/f774320b7ab57bfaac43d27a0d35d46f1b4293e1.png";
+import profileImage from "./hero.png";
 
 export function Hero() {
   const socialLinks = [
