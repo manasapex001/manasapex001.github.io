@@ -1,5 +1,5 @@
 import { Mail, Github, Linkedin, GraduationCap } from 'lucide-react';
-import profileImage from "./src/hero.png";
+import 
 
 export function Hero() {
   const socialLinks = [
