@@ -19,10 +19,10 @@ export function Contact() {
                 <div>
                   <h3 className="text-lg font-semibold text-white mb-2">Email</h3>
                   <a 
-                    href="mailto:abhinav.raghuvanshi2.ar@gmail.com"
+                    href="mailto:manassingh2001@gmail.com"
                     className="text-gray-400 hover:text-white transition-colors break-all"
                   >
-                    abhinav.raghuvanshi2.ar@gmail.com
+                    manassingh2001@gmail.com
                   </a>
                 </div>
               </div>

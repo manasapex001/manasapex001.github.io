@@ -2,9 +2,9 @@ import { Mail, Github, Linkedin, GraduationCap } from 'lucide-react';
 
 export function Hero() {
   const socialLinks = [
-    { icon: Mail, label: 'Email', href: 'mailto:abhinav.raghuvanshi2.ar@gmail.com' },
-    { icon: Github, label: 'GitHub', href: 'https://github.com/abhinavr11' },
-    { icon: Linkedin, label: 'LinkedIn', href: 'https://linkedin.com' },
+    { icon: Mail, label: 'Email', href: 'mailto:manassingh2001@gmail.com' },
+    { icon: Github, label: 'GitHub', href: 'https://github.com/manasapex001' },
+    { icon: Linkedin, label: 'LinkedIn', href: 'https://www.linkedin.com/in/manas-singh-a21a57189/' },
     { icon: GraduationCap, label: 'Google Scholar', href: 'https://scholar.google.com' },
   ];
 
@@ -14,16 +14,16 @@ export function Hero() {
         {/* Profile Image */}
         <div className="flex-shrink-0">
           <div className="w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-white/10 bg-gray-700 flex items-center justify-center">
-            <span className="text-white text-6xl font-bold" style={{ fontFamily: 'Georgia, serif' }}>AR</span>
+            <span className="text-white text-6xl font-bold" style={{ fontFamily: 'Georgia, serif' }}>MS/span>
           </div>
         </div>
 
         {/* Content */}
         <div className="flex-1 text-center md:text-left">
           <h1 className="text-7xl md:text-8xl font-bold text-white mb-4" style={{ fontFamily: 'Georgia, serif' }}>
-            Abhinav<br />Raghuvanshi
+            Manas<br />Singh
           </h1>
-          <p className="text-2xl text-gray-400 mb-8">Researcher & Engineer</p>
+          <p className="text-2xl text-gray-400 mb-8">Economics & Data Analyst</p>
 
           {/* Social Buttons */}
           <div className="flex flex-wrap gap-4 mb-8 justify-center md:justify-start">

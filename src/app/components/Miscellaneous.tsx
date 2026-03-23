@@ -21,12 +21,12 @@ export function Miscellaneous() {
     {
       icon: Book,
       title: "Reading",
-      description: "Avid reader of science fiction, philosophy, and technical literature"
+      description: "Avid reader of classics, philosophy, and technical literature"
     },
     {
       icon: Coffee,
       title: "Coffee Brewing",
-      description: "Enthusiast of specialty coffee and experimenting with different brewing methods"
+      description: "Enthusiast of specialty coffee"
     }
   ];
 
@@ -68,17 +68,17 @@ export function Miscellaneous() {
           <div className="space-y-4">
             <div className="p-6 bg-white/5 border border-white/10 rounded-lg">
               <p className="text-gray-300">
-                🎓 I've mentored over 20 undergraduate students in their research projects
+                🎓 I've mentored over 5 undergraduate students in their research projects
               </p>
             </div>
             <div className="p-6 bg-white/5 border border-white/10 rounded-lg">
               <p className="text-gray-300">
-                🌍 Attended conferences in 5 different countries, expanding both my research network and cultural experiences
+                🌍 Attended conferences for expanding  my research  and cultural experiences
               </p>
             </div>
             <div className="p-6 bg-white/5 border border-white/10 rounded-lg">
               <p className="text-gray-300">
-                💻 Contributed to several open-source projects with over 1000+ stars on GitHub
+                💻 Contributed to several  projects 
               </p>
             </div>
           </div>
