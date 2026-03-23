@@ -14,7 +14,7 @@ export function Hero() {
         {/* Profile Image */}
         <div className="flex-shrink-0">
           <div className="w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-white/10 bg-gray-700 flex items-center justify-center">
-            <span className="text-white text-6xl font-bold" style={{ fontFamily: 'Georgia, serif' }}>MS/span>
+            <span className="text-white text-6xl font-bold" style={{ fontFamily: 'Georgia, serif' }}>MS</span>
           </div>
         </div>
 
