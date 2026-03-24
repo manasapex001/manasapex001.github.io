@@ -17,8 +17,8 @@ export function Contact() {
                 </div>
                 <div>
                   <h3 className="text-lg font-semibold text-white mb-2">Email</h3>
-                  <a href="mailto:manasarvind2001@gmail.com" className="text-gray-400 hover:text-white transition-colors break-all block">
-                    manasarvind2001@gmail.com
+                  <a href="mailto:manassingh2001@gmail.com" className="text-gray-400 hover:text-white transition-colors break-all block">
+                    manassingh2001@gmail.com
                   </a>
                   <a href="mailto:manas_eco26@iift.edu" className="text-gray-400 hover:text-white transition-colors break-all block mt-1">
                     manas_eco26@iift.edu
@@ -37,7 +37,7 @@ export function Contact() {
                 <div>
                   <h3 className="text-lg font-semibold text-white mb-2">Phone</h3>
                   <a href="tel:+916391280096" className="text-gray-400 hover:text-white transition-colors">
-                    +91 6391280096
+                    +91 123456789
                   </a>
                 </div>
               </div>
