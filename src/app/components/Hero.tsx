@@ -2,30 +2,27 @@ import { Mail, Github, Linkedin, GraduationCap } from 'lucide-react';
 
 export function Hero() {
   const socialLinks = [
-    { icon: Mail, label: 'Email', href: 'mailto:manassingh2001@gmail.com' },
+    { icon: Mail, label: 'Email', href: 'mailto:manasarvind2001@gmail.com' },
     { icon: Github, label: 'GitHub', href: 'https://github.com/manasapex001' },
-    { icon: Linkedin, label: 'LinkedIn', href: 'https://www.linkedin.com/in/manas-singh-a21a57189/' },
+    { icon: Linkedin, label: 'LinkedIn', href: 'https://www.linkedin.com/in/manas-singha21a57189' },
     { icon: GraduationCap, label: 'Google Scholar', href: 'https://scholar.google.com' },
   ];
 
   return (
     <section id="hero" className="min-h-screen flex items-center justify-center px-8">
       <div className="max-w-5xl w-full flex items-center gap-16 flex-col md:flex-row">
-        {/* Profile Image */}
         <div className="flex-shrink-0">
           <div className="w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-white/10 bg-gray-700 flex items-center justify-center">
             <span className="text-white text-6xl font-bold" style={{ fontFamily: 'Georgia, serif' }}>MS</span>
           </div>
         </div>
 
-        {/* Content */}
         <div className="flex-1 text-center md:text-left">
           <h1 className="text-7xl md:text-8xl font-bold text-white mb-4" style={{ fontFamily: 'Georgia, serif' }}>
             Manas<br />Singh
           </h1>
           <p className="text-2xl text-gray-400 mb-8">Economics & Data Analyst</p>
 
-          {/* Social Buttons */}
           <div className="flex flex-wrap gap-4 mb-8 justify-center md:justify-start">
             {socialLinks.slice(0, 3).map((link) => (
               <a
@@ -55,7 +52,7 @@ export function Hero() {
               </a>
             ))}
             <a
-              href="https://twitter.com"
+              href="https://x.com/yourhandle"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 px-6 py-3 bg-transparent border border-white/20 rounded-md text-white hover:bg-white/5 hover:border-white/40 transition-all duration-200"
@@ -67,7 +64,6 @@ export function Hero() {
             </a>
           </div>
 
-          {/* Quote */}
           <blockquote className="text-gray-500 italic text-lg">
             "It's not who I am underneath but what I do that defines me"
           </blockquote>
