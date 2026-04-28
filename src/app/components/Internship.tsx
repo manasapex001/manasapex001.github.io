@@ -1,22 +1,22 @@
-import { ExternalLink, FileText, Github } from 'lucide-react';
+import { Briefcase, ExternalLink, FileText, Github } from 'lucide-react';
 import { projects, type Project } from '../data/projects';
 
-export function Projects() {
-  const personal = projects.filter((p) => p.kind === 'project');
+export function Internship() {
+  const internships = projects.filter((p) => p.kind === 'internship');
 
-  if (personal.length === 0) return null;
+  if (internships.length === 0) return null;
 
   return (
-    <section id="projects" className="min-h-screen flex items-center justify-center px-8 py-32">
+    <section id="internship" className="min-h-screen flex items-center justify-center px-8 py-32">
       <div className="max-w-4xl w-full">
-        <h2 className="text-5xl font-bold text-white mb-3">Projects</h2>
+        <h2 className="text-5xl font-bold text-white mb-3">Internship</h2>
         <p className="text-gray-400 text-base mb-12 max-w-2xl">
-          Personal and open-source data-science work.
+          Applied data and market research experience.
         </p>
 
         <div className="space-y-6">
-          {personal.map((p) => (
-            <ProjectCard key={p.id} project={p} />
+          {internships.map((p) => (
+            <InternshipCard key={p.id} project={p} />
           ))}
         </div>
       </div>
@@ -24,19 +24,26 @@ export function Projects() {
   );
 }
 
-function ProjectCard({ project: p }: { project: Project }) {
+function InternshipCard({ project: p }: { project: Project }) {
   return (
     <article className="p-6 bg-white/5 border border-white/10 rounded-lg hover:bg-white/[0.08] hover:border-white/20 transition-all duration-200">
-      <div className="flex items-start justify-between gap-4 mb-2">
-        <div>
-          <h3 className="text-xl font-semibold text-white">{p.title}</h3>
-          {p.organization && (
-            <p className="text-sm text-gray-400 mt-1">{p.organization}</p>
-          )}
+      <div className="flex items-start gap-4 mb-4">
+        <div className="w-12 h-12 rounded-lg flex-shrink-0 flex items-center justify-center bg-purple-500/15">
+          <Briefcase className="w-6 h-6 text-purple-300" />
         </div>
-        <span className="flex-shrink-0 text-sm text-gray-500">{p.period}</span>
+        <div className="flex-1 min-w-0">
+          <div className="flex items-start justify-between gap-4">
+            <div>
+              <h3 className="text-xl font-semibold text-white">{p.title}</h3>
+              {p.organization && (
+                <p className="text-sm text-gray-300 mt-0.5">{p.organization}</p>
+              )}
+            </div>
+            <span className="flex-shrink-0 text-sm text-gray-500">{p.period}</span>
+          </div>
+        </div>
       </div>
-      <p className="text-gray-400 text-sm leading-relaxed mt-3 mb-4">{p.description}</p>
+      <p className="text-gray-400 text-sm leading-relaxed mb-4">{p.description}</p>
       <div className="flex flex-wrap gap-2 mb-4">
         {p.tags.map((t) => (
           <span key={t} className="px-2 py-1 bg-white/10 text-gray-300 text-xs rounded">
